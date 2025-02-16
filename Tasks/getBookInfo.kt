@@ -1,7 +1,7 @@
 class Book(val title: String, val author: String,
            val yearPublished: Int) {
     fun getBookInfo(): String {
-        return "$title by $author ($yearPublished)"
+        return " $title by $author ($yearPublished) "
     }
 }
 
